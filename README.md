@@ -1,2 +1,3 @@
-# Personal Information page
-This repository is being used to show my CV
+# Personal Information page 
+This repo is for personal blog
+

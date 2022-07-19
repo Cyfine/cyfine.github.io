@@ -14,6 +14,8 @@ minify:
   disableXML: true
   minifyOutput: true
 
+publishDir: "docs"
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite

@@ -20,10 +20,10 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "Carter Yifeng CHENG's personal blog"
-  keywords: [Blog, Portfolio, PaperMod]
+  keywords: [ Blog, Portfolio, PaperMod ]
   author: Carter Y. CHENG
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: [ "<link or path of image for opengraph, twitter-cards>" ]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -44,14 +44,15 @@ params:
   showtoc: false
   tocopen: false
 
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/static/favicon.ico"
+    favicon16x16: "/static/favicon-16x16.png"
+    favicon32x32: "/static/favicon-32x32.png"
+    apple_touch_icon: "/static/apple-touch-icon.png"
+    safari_pinned_tab: "/static/safari-pinned-tab.svg"
 
   label:
     text: "Home"
@@ -100,7 +101,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/Cyfine/cyfine.github.io/content"
+    URL: "https://github.com/Cyfine/cyfine.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
@@ -113,7 +114,8 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: [ "title", "permalink", "summary", "content" ]
+
 menu:
   main:
     - identifier: categories
@@ -124,6 +126,14 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: archive
+      name: Archive
+      url: /archive/
+      weight: 40
 #    - identifier: example
 #      name: example.org
 #      url: https://example.org
@@ -138,3 +148,8 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary

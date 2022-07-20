@@ -4,7 +4,8 @@ date: 2022-07-19T19:33:24+08:00
 draft: false
 categories: ["Information Theory",  "Statistics"]
 tags: ["Entropy", "KL Divergence"]
-description: "CE and KL divergence are important concepts to measure how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p||q)"
+
+summary: "CE and KL divergence are important concepts to measure how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p||q)"
 ---
 ## The Entropy and Cross-Entropy
 ### Self Information

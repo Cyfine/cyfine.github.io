@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Carter&#39;s Blog</title>
-    <link>https://cyfine.github.io/posts/</link>
-    <description>Recent content in Posts on Carter&#39;s Blog</description>
+    <title>KL Divergence on Carter&#39;s Blog</title>
+    <link>https://cyfine.github.io/tags/kl-divergence/</link>
+    <description>Recent content in KL Divergence on Carter&#39;s Blog</description>
     <image>
       <url>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Jul 2022 19:33:24 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 19:33:24 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/tags/kl-divergence/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Briefing of Cross Entropy and KL Divergence</title>
       <link>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</link>
@@ -17,24 +17,6 @@
       
       <guid>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</guid>
       <description>Information Theory The Entropy and Cross-Entropy Self Information （自信息） Considering the scenario that we transport information of a random variable $X$ having different states. The information can be represented using bits. For instance, if a random variable has two states, it can be represented using a single bit. The amount of bits representing the random variable $X$ is $\log_{2}{2}$. Similarly, if $X$ has three states, the number of bits representing $X$ will be $\log_{2}{8}=3$.</description>
-    </item>
-    
-    <item>
-      <title>Fisher Information</title>
-      <link>https://cyfine.github.io/posts/fisher-information/</link>
-      <pubDate>Tue, 19 Jul 2022 19:32:13 +0800</pubDate>
-      
-      <guid>https://cyfine.github.io/posts/fisher-information/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Demo</title>
-      <link>https://cyfine.github.io/posts/demo/</link>
-      <pubDate>Tue, 19 Jul 2022 15:57:20 +0800</pubDate>
-      
-      <guid>https://cyfine.github.io/posts/demo/</guid>
-      <description>this is a description</description>
     </item>
     
   </channel>

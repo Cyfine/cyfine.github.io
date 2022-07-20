@@ -6,6 +6,7 @@ printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 hugo -t PaperMod
 # Add changes to git.
 git add docs
+git add content
 # Commit changes.
 msg="rebuilding site $(date)"
 if [ -n "$*" ]; then

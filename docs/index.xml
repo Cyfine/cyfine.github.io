@@ -8,7 +8,17 @@
       <url>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 19 Jul 2022 19:33:24 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Briefing of Cross-Entropy and KL Divergence</title>
+      <link>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</link>
+      <pubDate>Tue, 19 Jul 2022 19:33:24 +0800</pubDate>
+      
+      <guid>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</guid>
+      <description>CE and KL divergence are important concepts to measures how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p</description>
+    </item>
+    
     
     
   </channel>

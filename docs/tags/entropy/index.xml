@@ -11,12 +11,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 19 Jul 2022 19:33:24 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/tags/entropy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Briefing of Cross Entropy and KL Divergence</title>
+      <title>A Briefing of Cross-Entropy and KL Divergence</title>
       <link>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</link>
       <pubDate>Tue, 19 Jul 2022 19:33:24 +0800</pubDate>
       
       <guid>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</guid>
-      <description>Information Theory The Entropy and Cross-Entropy Self Information （自信息） Considering the scenario that we transport information of a random variable $X$ having different states. The information can be represented using bits. For instance, if a random variable has two states, it can be represented using a single bit. The amount of bits representing the random variable $X$ is $\log_{2}{2}$. Similarly, if $X$ has three states, the number of bits representing $X$ will be $\log_{2}{8}=3$.</description>
+      <description>CE and KL divergence are important concepts to measures how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p</description>
     </item>
     
   </channel>

@@ -1,7 +1,7 @@
 ---
 title: "A Briefing of Cross-Entropy and KL Divergence"
 date: 2022-07-19T19:33:24+08:00
-draft: true
+draft: false
 categories: ["Information Theory",  "Statistics"]
 tags: ["Entropy", "KL Divergence"]
 description: "CE and KL divergence are important concepts to measures how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p"

@@ -37,8 +37,8 @@ $$
 Extending from cross entropy, the KL divergence is: 
 $$\begin{aligned}
 KL(p||q) &= H(p||q) - H(p) \\
-        &= -\sum_{i\in N}p(x_i)\log_2{q(x_i)}  - \sum_{i\in N}p(x_i)\log_2{p(x_i)}  \\
-        &= -\sum_{i\in N}p(x_i)\log_2{\frac{q(x_i)}{p(x_i)}}
+        &= -\sum_{i \in N}p(x_i)\log_2{q(x_i)}  - \sum_{i\in N}p(x_i)\log_2{p(x_i)}  \\
+        &= -\sum_{i \in N}p(x_i)\log_2{\frac{q(x_i)}{p(x_i)}}
 \end{aligned}$$
 Measuring if using distribution $q$ to approximate $p$, the extra information loss/overhead. So, smaller the KL divergence is, the more similar two distributions are. 
 

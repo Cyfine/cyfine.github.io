@@ -9,12 +9,31 @@
   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
   };
   */
-  (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://cyfine.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
+  var disqus_config = function () {
+      this.page.title = {{ .Title }};
+      this.page.url = {{ .Permalink }};
+      this.page.identifier = {{ .Permalink }};
+  };
+
+  // (function() { // DON'T EDIT BELOW THIS LINE
+  //   var d = document, s = d.createElement('script');
+  //   s.src = 'https://cyfine.disqus.com/embed.js';
+  //   s.setAttribute('data-timestamp', +new Date());
+  //   (d.head || d.body).appendChild(s);
+  // })();
+
+  load_disqus = function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://cyfine.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+  }
+
+  load_disqus();
+
+  document.getElementById("theme-toggle").addEventListener("click", function (e) {
+    load_disqus();
+  });
 </script>
 <script>
     (function($){

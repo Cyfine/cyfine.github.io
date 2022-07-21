@@ -3,7 +3,7 @@
 set -e
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 # Build the project.
-hugo -D
+hugo -t PaperMod
 # Add changes to git.
 git add docs
 git add content

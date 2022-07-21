@@ -9,7 +9,16 @@
       <link>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 19 Jul 2022 19:33:24 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jul 2022 16:14:57 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Indepdent and Identical Distriubted</title>
+      <link>https://cyfine.github.io/posts/indepdent-and-identical-distriubted/</link>
+      <pubDate>Thu, 21 Jul 2022 16:14:57 +0800</pubDate>
+      
+      <guid>https://cyfine.github.io/posts/indepdent-and-identical-distriubted/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>A Briefing of Cross-Entropy and KL Divergence</title>
       <link>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</link>
@@ -17,6 +26,15 @@
       
       <guid>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</guid>
       <description>CE and KL divergence are important concepts to measure how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p|q)</description>
+    </item>
+    
+    <item>
+      <title>Fisher Information</title>
+      <link>https://cyfine.github.io/posts/fisher-information/</link>
+      <pubDate>Tue, 19 Jul 2022 19:32:13 +0800</pubDate>
+      
+      <guid>https://cyfine.github.io/posts/fisher-information/</guid>
+      <description></description>
     </item>
     
     

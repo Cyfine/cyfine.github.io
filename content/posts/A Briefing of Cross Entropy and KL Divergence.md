@@ -4,8 +4,8 @@ date: 2022-07-19T19:33:24+08:00
 draft: false
 categories: ["Information Theory",  "Statistics"]
 tags: ["Entropy", "KL Divergence"]
-
-summary: "CE and KL divergence are important concepts to measure how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p||q)"
+description: "CE and KL divergence are important concepts to measure how different two distributions are from each other on a statistics point of view. Also, viewing from information theory, KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p|q)"
+summary: "Cross entropy and KL divergence measure how different two distributions are. In information theory,  KL Divergence measures the information loss / extra information when using distribution q to approximate the distribution p KL(p|q)"
 ---
 ## The Entropy and Cross-Entropy
 ### Self Information
@@ -21,7 +21,7 @@ $$I(x) =  -\log_2{p(x)}$$
 > 2. The **less probable** an event is, the **more surprising** it is and the **more information** it yields.
 > 3. If two independent events are measured separately, the total amount of information is the sum of the self-informations of the individual events.
 ### Entropy and Cross Entropy
-Encoding the each value using number of states of random variables is assuming that each state has equal probability, complying uniform distribution. If $x_i$ has different probability to appear, transmitting $\log_2{n}$ bits for each state is not a optimal solution. For example, all possible values of $X$ are $X = \\{x_1, x_2, x_3\\}$, and the probability distribution of $X$ is
+Encoding each value using the number of states of random variables is assuming that each state has an equal probability, complying with uniform distribution. If $x_i$ has a different probability to appear, transmitting $\log_2{n}$ bits for each state is not an optimal solution. For example, all possible values of $X$ are $X = \\{x_1, x_2, x_3\\}$, and the probability distribution of $X$ is
 $$ p(x_1)=0.5, p(x_2)=0.25,p(x_3)=0.25$$
 We need to use $\log_{2}{3}$, approximately 1.68 bits to encode each state. However, if we use 1 bit for $x_1$, and 2 bits for $x_2$ and $x_3$ (using more bits to encode the value with less probability, vice versa), on average the number of bits that we need to transmit are
 $$p(x_1)\log_2{\frac{1}{p(x_1)}} + p(x_2)\log_2{\frac{1}{p(x_2)}} +p(x_3)\log_2{\frac{1}{p(x_3)}}$$
@@ -32,16 +32,16 @@ $$H(p) = -\sum_{i\in N}p(x_i)\log_{2}{p(x_i )},  \ X=\\{x_1, x_2,\dots, x_N\\}$$
 
 In the actual transmission of the random variable $X$, we use another distribution $q$ guiding us to encode each value of random variable $X$. We are trying to approach the real distribution of random variable $X$ with $q$ to obtain better encoding with fewer bits transferred. The measurement of how similar two distributions is cross-entropy. The cross-entropy is being represented as:
 $$
-H(p||q) = -\sum_{i\in N}p(x_i)\log_2{q(x_i)} 
+H(p|q) = -\sum_{i\in N}p(x_i)\log_2{q(x_i)} 
 $$
 ## Kullback-Leibler Divergence (KL Divergence) 
-Extending from cross entropy, the KL divergence is: 
+Extending from cross-entropy, the KL divergence is: 
 $$\begin{aligned}
-KL(p||q) &= H(p||q) - H(p) \\\\\
+D_{KL}(p|q) &= H(p|q) - H(p) \\\\\
         &= -\sum_{i \in N}p(x_i)\log_2{q(x_i)}  - \sum_{i\in N}p(x_i)\log_2{p(x_i)}  \\\\
         &= -\sum_{i \in N}p(x_i)\log_2{\frac{q(x_i)}{p(x_i)}}
 \end{aligned}$$
-Measuring if using distribution $q$ to approximate $p$, the extra information loss/overhead. So, smaller the KL divergence is, the more similar two distributions are. 
+Measuring if using distribution $q$ to approximate $p$, the extra information loss/overhead. So, the smaller the KL divergence is, the more similar the two distributions are. 
 
 ### Properties
 #### Positive Definiteness  

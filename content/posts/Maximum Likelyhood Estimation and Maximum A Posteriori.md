@@ -28,3 +28,8 @@ $$
 \end{aligned}
 $$
 At line 3 of the above equation, the $p(X)$ is omitted, as doing so does not affect the result. The $MAP$ has one extra $\ln(p(\theta))$ term. 
+
+Note, here is an inaccuracy: 
+> According to our prior, $p(\theta=0.6)$ will be very small.
+
+As the $\theta$ follows Gaussian distribution, it is a continuous variable,thus $p(\theta=0.6)$ is meaningless, still, the p.d.f gives smaller value, which aligns its functionality as a "weighting" of MLE.

@@ -62,11 +62,11 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    title: Carter's Blog
+    subtitle: "Welcome to my blog, this is the place where I post some of my study notes"
+    imageUrl: "Tux.jpeg"
+    imageWidth: 150
+    imageHeight: 150
     imageTitle: my image
     buttons:
       - name: Posts

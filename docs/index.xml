@@ -9,7 +9,17 @@
       <link>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 22 Jul 2022 20:02:09 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 11:31:28 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pac Net a Model Pruning  Approach</title>
+      <link>https://cyfine.github.io/posts/pac-net-a-model-pruning-approach/</link>
+      <pubDate>Tue, 02 Aug 2022 11:31:28 +0800</pubDate>
+      
+      <guid>https://cyfine.github.io/posts/pac-net-a-model-pruning-approach/</guid>
+      <description>1. Abstract When using over-parameterized model, the author found the model can be pruned without losing most of the accuracy.
+The author identifies the essential weight using LWM to obtain mask. For pruned model, train on source domain with regularization. Then, transfer the model on the target domain, freeze un-pruned parameter on the source domain, train only the parameter being pruned on the target domain. 2. Contribution Very first using pruning in transfer learning.</description>
+    </item>
+    
     <item>
       <title>Maximum Likelihood Estimation and Maximum A Posterior</title>
       <link>https://cyfine.github.io/posts/maximum-likelyhood-estimation-and-maximum-a-posteriori/</link>

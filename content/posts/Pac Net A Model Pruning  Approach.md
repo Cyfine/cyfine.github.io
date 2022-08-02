@@ -1,7 +1,7 @@
 ---
 title: "Pac Net a Model Pruning  Approach"
 date: 2022-08-02T11:31:28+08:00
-draft: true
+draft: false
 author: "Carter Yifeng CHENG"
 description: ""
 summary: ""

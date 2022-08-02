@@ -3,10 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://cyfine.github.io/</loc>
-    <lastmod>2022-07-22T20:02:09+08:00</lastmod>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
   </url><url>
     <loc>https://cyfine.github.io/categories/</loc>
-    <lastmod>2022-07-22T20:02:09+08:00</lastmod>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/tags/icml/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/tags/icml-2022/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/posts/pac-net-a-model-pruning-approach/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/categories/paper-reading/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/posts/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/tags/pruning/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/tags/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
+  </url><url>
+    <loc>https://cyfine.github.io/tags/transfer-learning/</loc>
+    <lastmod>2022-08-02T11:31:28+08:00</lastmod>
   </url><url>
     <loc>https://cyfine.github.io/tags/maximum-a-posterior/</loc>
     <lastmod>2022-07-22T20:02:09+08:00</lastmod>
@@ -17,13 +41,7 @@
     <loc>https://cyfine.github.io/posts/maximum-likelyhood-estimation-and-maximum-a-posteriori/</loc>
     <lastmod>2022-07-22T20:02:09+08:00</lastmod>
   </url><url>
-    <loc>https://cyfine.github.io/posts/</loc>
-    <lastmod>2022-07-22T20:02:09+08:00</lastmod>
-  </url><url>
     <loc>https://cyfine.github.io/categories/statistics/</loc>
-    <lastmod>2022-07-22T20:02:09+08:00</lastmod>
-  </url><url>
-    <loc>https://cyfine.github.io/tags/</loc>
     <lastmod>2022-07-22T20:02:09+08:00</lastmod>
   </url><url>
     <loc>https://cyfine.github.io/posts/a-briefing-of-cross-entropy-and-kl-divergence/</loc>

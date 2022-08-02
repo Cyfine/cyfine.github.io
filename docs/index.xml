@@ -16,8 +16,8 @@
       <pubDate>Tue, 02 Aug 2022 11:31:28 +0800</pubDate>
       
       <guid>https://cyfine.github.io/posts/pac-net-a-model-pruning-approach/</guid>
-      <description>1. Abstract When using over-parameterized model, the author found the model can be pruned without losing most of the accuracy.
-The author identifies the essential weight using LWM to obtain mask. For pruned model, train on source domain with regularization. Then, transfer the model on the target domain, freeze un-pruned parameter on the source domain, train only the parameter being pruned on the target domain. 2. Contribution Very first using pruning in transfer learning.</description>
+      <description>1. Abstract When using an over-parameterized model, the author found the model can be pruned without losing the most accuracy.
+The author identifies the essential weight using LWM to obtain the mask. For pruned model, train on source domain with regularization. Then, transfer the model to the target domain, freeze the un-pruned parameter on the source domain, and train only the pruned parameter on the target domain. 2. Contribution Very first using pruning in transfer learning.</description>
     </item>
     
     <item>

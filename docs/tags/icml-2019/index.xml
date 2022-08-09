@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Pruning on Carter&#39;s Blog</title>
-    <link>https://cyfine.github.io/tags/pruning/</link>
-    <description>Recent content in Pruning on Carter&#39;s Blog</description>
+    <title>ICML 2019 on Carter&#39;s Blog</title>
+    <link>https://cyfine.github.io/tags/icml-2019/</link>
+    <description>Recent content in ICML 2019 on Carter&#39;s Blog</description>
     <image>
       <url>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://cyfine.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Aug 2022 19:40:52 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/tags/pruning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 19:40:52 +0800</lastBuildDate><atom:link href="https://cyfine.github.io/tags/icml-2019/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Lottery Ticket Hypothesis</title>
       <link>https://cyfine.github.io/posts/papers/the-lottery-ticket-hypothesis/</link>
@@ -17,16 +17,6 @@
       
       <guid>https://cyfine.github.io/posts/papers/the-lottery-ticket-hypothesis/</guid>
       <description>Summary Research Objective There are recent found that, from a large neural trained network, we can prune and obtain a small sub network (even 90% of the parameters is being pruned), without compromising the performance. It natural to think that, if we could have a way, train a small network from the scratch, also obtains similar performance as the large network, saving the energy for training. According to current experience, a pruned sparse network is hard to train from start.</description>
-    </item>
-    
-    <item>
-      <title>Pac Net a Model Pruning  Approach</title>
-      <link>https://cyfine.github.io/posts/papers/pac-net-a-model-pruning-approach/</link>
-      <pubDate>Tue, 02 Aug 2022 11:31:28 +0800</pubDate>
-      
-      <guid>https://cyfine.github.io/posts/papers/pac-net-a-model-pruning-approach/</guid>
-      <description>1. Abstract When using an over-parameterized model, the author found the model can be pruned without losing the most accuracy.
-The author identifies the essential weight using LWM to obtain the mask. For pruned model, train on source domain with regularization. Then, transfer the model to the target domain, freeze the un-pruned parameter on the source domain, and train only the pruned parameter on the target domain. 2. Contribution Very first using pruning in transfer learning.</description>
     </item>
     
   </channel>

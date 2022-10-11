@@ -1,7 +1,7 @@
 baseURL: "https://cyfine.github.io/"
 title: Carter's Blog
 paginate: 5
-theme: PaperMod
+theme: hugo-PaperModX
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -44,6 +44,7 @@ params:
   showtoc: true
   tocopen: false
   math:  true
+  TocSide: "left"
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -61,7 +62,7 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: Carter's Blog
     subtitle: "Welcome to my blog, this is the place where I post some of my study notes"
     imageUrl: "Tux.jpeg"
@@ -134,6 +135,10 @@ menu:
       name: Archive
       url: /archive/
       weight: 40
+    # - identifier: aboutme
+    #   name: About Me
+    #   url: /aboutme/ 
+    #   weight: 50
 #    - identifier: example
 #      name: example.org
 #      url: https://example.org
